@@ -36,8 +36,9 @@
     "supertest": "^3.0.0"
   },
   "dependencies": {
+    "@authentication/google": "^0.1.1",
     "aos": "^2.2.0",
-    "axios": "^0.17.1",
+    "axios": "^0.19.0",
     "babel-core": "^6.26.0",
     "babel-jest": "^22.2.0",
     "babel-loader": "^6.3.2",
@@ -46,7 +47,7 @@
     "babel-preset-react": "^6.23.0",
     "body-parser": "^1.17.2",
     "chai": "^4.1.2",
-    "connect-mongo": "^2.0.1",
+    "connect-mongo": "^2.0.3",
     "cors": "^2.8.4",
     "css-loader": "^0.28.9",
     "dotenv": "^4.0.0",
@@ -58,8 +59,9 @@
     "lodash": "^4.17.5",
     "moment": "^2.20.1",
     "mongoose": "^4.13.10",
-    "nodemailer": "^4.4.2",
     "node-uuid": "1.2.0",
+    "nodemailer": "^4.4.2",
+    "nodemon": "^1.19.2",
     "numeral": "^2.0.6",
     "passport": "^0.4.0",
     "passport-google-oauth": "^1.0.0",
@@ -81,6 +83,7 @@
     "style-loader": "^0.20.1",
     "url-loader": "^0.6.2",
     "webpack": "^2.2.1",
+    "webrtc-adapter": "^7.3.0",
     "yetify": "0.0.1"
   },
   "bugs": {
@@ -105,5 +108,8 @@
       "enzyme-to-json/serializer"
     ]
   },
-  "homepage": "https://github.com/Hack-Champs/tutorhq#readme"
+  "homepage": "https://github.com/Hack-Champs/tutorhq#readme",
+  "optionalDependencies": {
+    "win-node-env": "^0.4.0"
+  }
 }
